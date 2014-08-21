@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/****************
+Main Styles
+****************/
+
+/*********
+Tags
+*********/
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background:#C60;
+}
+
+header
+{
+	background:#C90;
+	height:70px;
+}
+footer
+{
+	background:#C90;
+	height:70px;
+	clear:left;
+	
+}
+footer p
+{
+float:right;
+margin-right: 20px;
+position:relative;
+vertical-align:bottom;
+}
+h1
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:1.3em;
+	letter-spacing:0.2em;
+	color:#333;
+	margin-left: 20px;
+}
+h2
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:1.0em;
+	color:#333;
+	margin-left: 20px;
+}
+p
+{
+	margin-left: 20px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+aside
+{
+	background:#CC0;
+	width:260px;
+	float:left;
+}
+article
+{
+	background:#FFF;
+	width:700px;
+	float:left;
+}
+a
+{
+	text-decoration:none;
+	color:#33F;
+	font-family:"Courier New", Courier, monospace;
+}
+
+/**********
+Id
+**********/
+#wrapper
+{
+	width:960px;
+	margin: 0px auto;
+	background:#CC0;
+}
+#meny 
+{
+	list-style: none;
+}
+#meny ul
+{
+	list-style: none;
+}
+/************
+class
+************/
+.selected
+{
+	font-weight: bold;
+	color:red;
+}
